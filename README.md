@@ -11,7 +11,7 @@ application.
 
 2. Modify configuration:
 - Add domains in data/nginx/conf.d/app.conf and init-letsencrypt.sh
-- Replace all occurrences of example.org with primary domain (the first one you added to init-letsencrypt.sh) in data/nginx/conf.d/app.conf
+- Replace all occurrences of <<DOMAIN_NAME>> with primary domain (the first one you added to init-letsencrypt.sh) in data/nginx/conf.d/app.conf
 
 3. Run the init script:
 ```
